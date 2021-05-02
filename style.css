@@ -1,0 +1,95 @@
+.js-header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-shadow: 2px 2px 0px black;
+    color: white;
+}
+
+.js-clock{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.js-clock h2{
+    font-size: 50px;
+}
+
+.js-form{
+    text-align: center;
+    display: none;
+}
+
+.js-greeting{
+    text-align: center;
+    display: block;
+    list-style: none;
+    font-size: 50px;
+    text-shadow: 2px 2px 0px black;
+    color: white;
+}
+
+.js-todo{
+    text-align: center;
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.js-planmenu{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+.js-planmenu ul{
+    padding: 0;
+    width: 70%;
+    min-height: 350px;
+    text-align: center;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color:rgb(0,0,0, 0.4)
+
+}
+
+.js-planmenu ul h2{
+    color: white;
+    margin-top: 5px;
+
+}
+
+.showing{
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 0px;
+
+}
+
+.btn{
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.greeting_span{
+    font-weight: bold;
+    text-align: center;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeln 0.5s linear;
+}
+
+.js-weather{
+    text-align: center;
+}
